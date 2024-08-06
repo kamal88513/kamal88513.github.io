@@ -195,3 +195,71 @@ footer a{
         color : red;
     }
 }
+#media 
+{
+    animation:myAnime 0.5s infinite;
+    font-style: italic;
+
+}
+
+@keyframes myAnime
+{
+    0%{
+        color :brown;
+       
+    }
+    25% {
+        color: red;
+    }
+    50%{
+        color :rgb(151, 235, 27);
+    }
+    75% {
+        color: pink;
+    }
+    100%
+    {
+        color : red;
+    }
+}
+
+
+.video1
+{
+    max-width: 80%;
+    border : 2px solid black;
+    margin : 0 auto;
+    padding : 50px 20px;
+    border-radius:50px ;
+    background-color: rgb(232, 201, 89);
+}
+
+.video1 h1{
+    color  :rgb(232, 201, 89);
+}
+.video1 video{
+    max-width: 80%;  
+    margin : 30px;
+    border : 1px solid black;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+
+.music-sample{
+    max-width: 60%;
+    border : 2px solid black;
+    margin :0 auto;
+    padding : 20px 20px;
+    border-radius:50px ;
+    margin-top:40px;
+    background-color: rgb(232, 201, 89);
+}
+.music-sample audio{
+    max-width:80%;
+}
+
+.music-sample p{
+    color : black;
+}

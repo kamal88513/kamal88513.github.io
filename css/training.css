@@ -156,7 +156,33 @@ caption {
 	font-size: 2em;
 	padding: 2%;
 	margin-top: 2%;
+    animation:myAnime 0.5s infinite;
+    font-style: italic;
+
 }
+
+@keyframes myAnime
+{
+    0%{
+        color :brown;
+       
+    }
+    25% {
+        color: red;
+    }
+    50%{
+        color :rgb(232, 201, 89);
+    }
+    75% {
+        color: pink;
+    }
+    100%
+    {
+        color : red;
+    }
+}
+
+
 
 th {
 	border: 1px solid #7188bb;

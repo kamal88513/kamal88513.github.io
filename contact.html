@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- KAMAL
+     C0936623-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waffle Wonder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="img/icon.jpg">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/banner.png" alt="Company Banner">
+        </header>
+        <nav>
+            <a href="index.html" id="logo">
+                <p>Waffle Wonder</p>
+            </a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+        <main>
+
+            <div class="form">
+
+                <h2>Contact Us</h2>
+
+                <form class="form-grid"><!--Start Form-->
+
+                    <fieldset>
+                        <legend>Contact Us!</legend>
+                        <label for="fName">First Name:</label><br>
+                        <input type="text" id="fName" name="fName" placeholder="Enter your First Name" required
+                            autofocus><br>
+
+                        <label for="lName">Last Name:</label><br>
+                        <input type="text" name="lName" id="lName" placeholder="Enter your Last Name" required><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" placeholder="Email" required><br>
+
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" required><br>
+
+                        <label for="city">Address:</label><br>
+                        <input type="Textarea" id="address" name="address" placeholder="Address" required><br>
+
+                        <label for="city">City:</label><br>
+                        <input type="city" id="city" name="city" placeholder="City" required><br>
+
+                        <label for="state">State:</label><br>
+                        <input type="state" id="state" name="state" placeholder="State" required><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Reason for Contact</legend><br>
+                        <label for="consult"><input type="checkbox" name="interest" id="consult"
+                                value="Free Consultation">Free Consultation</label><br><br><br>
+
+                        <label for="sign"><input type="checkbox" name="interest" id="sign"
+                                value="Free Letter Sign Up">Free Letter Sign Up</label><br><br><br>
+
+                        <label for="jobinqry"><input type="checkbox" name="interest" id="jobinqry"
+                                value="Job Inquiry">Job Inquiry</label><br><br><br>
+
+                        <label for="other"><input type="checkbox" name="interest" id="other" value="Other">Other</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <br><br>
+                        <legend>Referral Source</legend>
+                        <label for="reference">How did you find us?</label>
+                        <select name="reference" id="reference">
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="questions">Questions</label>
+                        <textarea id="question" name="questions" rows="5" cols="35"></textarea>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <div class="btn">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2099. All Rights Reserved.<br>
+                <a href="mailto:info@kamal.com">Request information</a><br>
+                KAMAL c0936623
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
